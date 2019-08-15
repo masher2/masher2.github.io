@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jesús Pérez</title>
+    <link>https://masher2.github.io/</link>
+    <description>Recent content on Jesús Pérez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 14 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masher2.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crypto, banking, and spending money in Venezuela</title>
+      <link>https://masher2.github.io/posts/2019/08/crypto-banking-and-spending-money-in-venezuela/</link>
+      <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/posts/2019/08/crypto-banking-and-spending-money-in-venezuela/</guid>
+      <description>Today I saw Universal Access to Basic Finance by Andreas M. Antonopoulos, he starts the talk saying that when visiting Argentina in 2013 for the first time he didn’t need to explain “why, why bitcoin, why open blockchains, why freedom of finance”, that is because all the people in the conference room were interested in the “how”, because they already understanded the “why”; those opening words struck me, because here in Venezuela, at least in the kind of environment I am and the kind of people I know, most of us already know the “why”: The Bolivar Soberano (VES).</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://masher2.github.io/about/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/about/</guid>
+      <description>I am Jesús Pérez, a statistician graduated from the UCV (Universidad Central de Venezuela) in 2018. I&amp;rsquo;m interested in data science, cryptocurrencies, libre software and ｖａｐｏｒｗａｖｅ.
+I&amp;rsquo;m not an expert in any field so I&amp;rsquo;ll be posting about whatever new I learn that would be nice to share and interesting things I find in the internet.
+@ or DM me on twitter if you want @masher_2, I&amp;rsquo;m not active but maybe I will.</description>
+    </item>
+    
+  </channel>
+</rss>

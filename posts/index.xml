@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Jesús Pérez</title>
+        <link>https://masher2.github.io/posts/</link>
+        <description>Recent content in Posts on Jesús Pérez</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <lastBuildDate>Wed, 14 Aug 2019 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://masher2.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Crypto, banking, and spending money in Venezuela</title>
+            <link>https://masher2.github.io/posts/2019/08/crypto-banking-and-spending-money-in-venezuela/</link>
+            <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://masher2.github.io/posts/2019/08/crypto-banking-and-spending-money-in-venezuela/</guid>
+            <description>Today I saw Universal Access to Basic Finance by Andreas M. Antonopoulos, he starts the talk saying that when visiting Argentina in 2013 for the first time he didn’t need to explain “why, why bitcoin, why open blockchains, why freedom of finance”, that is because all the people in the conference room were interested in the “how”, because they already understanded the “why”; those opening words struck me, because here in Venezuela, at least in the kind of environment I am and the kind of people I know, most of us already know the “why”: The Bolivar Soberano (VES).</description>
+            <content type="html"><![CDATA[
+
+
+<p>Today I saw <a href="https://www.youtube.com/watch?v=aDjww6VAKM8">Universal Access to Basic Finance</a> by Andreas M. Antonopoulos, he starts the talk saying that when visiting Argentina in 2013 for the first time he didn’t need to explain “why, why bitcoin, why open blockchains, why freedom of finance”, that is because all the people in the conference room were interested in the “how”, because they already understanded the “why”; those opening words struck me, because here in Venezuela, at least in the kind of environment I am and the kind of people I know, most of us already know the “why”: The Bolivar Soberano (VES).</p>
+<p>After two moneraty reconversions, the first in 2008 removing three zeros, the second last year (2018) removing five more, the VES is nothing more than a bad joke to all of us that remain in the country<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. This has led people to use the US Dollar (USD) as a preferred currency as its value stays stable in time compared to the VES.</p>
+<p>The problem then arises, food is mostly traded in VES, while goods like smartphones, shoes, and home appliances are preferably traded in USD because holding such an amount of VES would be too risky<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> or even plain impossible for an individual to obtain (at the time of writing 1 USD ≈ 14000 VES). Add to the problem the insecurity and carrying 500 USD in one’s pocket while using public transportation is not something anybody would want to do. Living through this it’s only natural to gravitate towards cryptocurrency, even with its volatility, Bitcoin (BTC) is a safer place to hold your money than in VES in a bank account.</p>
+<p>Returning to the talk, mr Antonopoulos explains how the banking system keeps the unbanked poor, making their life unnecessarily difficult by denying them basic financial services and sentencing them to cash only and higher fees for things like sending money to someone. For someone like me, who has never left Venezuela and thus has never had the opportunity to open an account in any other currency that is not the Bolivar, spending money in an economy where you either need a suspiciously huge<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> amount of VES in your account or need a dangerous amount of USD in your pocket. That is not the only way though, as many stores (WAY more than those who accept crypto) accept not only VES or cash USD but <a href="https://www.zellepay.com/">Zelle</a>, a payment system between USA bank accounts; I, who am paid mostly in crypto<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, find very difficult spending my money in my home country.</p>
+<p>Earlier this week I was in a “technology mall” in Caracas trying to buy a smartphone for my uncle, I asked in almost every store in that shopping mall asking if they accepted any form of cryptocurrency, something like an hour and more or less 30 stores later I found only one little store that accepted crypto; only one store, in a shopping mall dedicated almost to tech stores, accepted the (arguably) easiest and safest way for a venezuelan who has never left the country to use his money.</p>
+<p>Another interesting idea that mr Antonopoulos spoke about was the “false idea of safety through totalitarian control”, the idea that through massive surveillance of the population all crime will be thwarted, but just as George Orwell depicts in 1984, surveillance only hurts the good people being surveilled, there will always be people powerful enough to avoid surveillance, or at least its consecuences, we as venezuelans know first hand that fact<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<p>Nevertheless not everything is bad, as more people talk about crypto more stores will realize there is an oportunity there and will dive into it. I’ll keep asking in every store I enter if they accept crypto, and will keep spreading the word of libre software, because if people don’t know there is an alternative to the systems they are accustomed to they can’t make different choices with how they live their lives.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>A recurring joke between my friends is that we will become millionaires before the year ends, as we find ourselves holding more hundreds of thousands of VES just for weekly expenses.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>This price tag made me laugh, it’s amazing seeing the price also in Bolivares Fuertes (VEF) as it quickly became too confusing to compare to after the VES reconversion, realizing that a ~50 USD faucet is worth 67 billions VEF or 67 trillion plain Bolivares (before the first reconversion) is bewildering. <img src="/posts/crypto-banking-and-spending-money-in-venezuela/faucet.jpeg" alt="675 thousand VES faucet" height="400"/><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Related to the surveillance economy that I touch briefly later in the post.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Not really crypto but [uphold], which is basically crypto<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>Even though, few people know about ways to reduce the digital surveilance imposed to us, and most of those people prefer convenience over privacy.<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
