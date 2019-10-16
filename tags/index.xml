@@ -5,10 +5,19 @@
     <link>https://masher2.github.io/tags/</link>
     <description>Recent content in Tags on Jesús Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masher2.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adobe</title>
+      <link>https://masher2.github.io/tags/adobe/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/tags/adobe/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Crypto</title>
@@ -16,6 +25,15 @@
       <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://masher2.github.io/tags/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Libre Software</title>
+      <link>https://masher2.github.io/tags/libre-software/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/tags/libre-software/</guid>
       <description></description>
     </item>
     
@@ -31,7 +49,7 @@
     <item>
       <title>Venezuela</title>
       <link>https://masher2.github.io/tags/venezuela/</link>
-      <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://masher2.github.io/tags/venezuela/</guid>
       <description></description>
