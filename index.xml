@@ -5,10 +5,20 @@
     <link>https://masher2.github.io/</link>
     <description>Recent content on Jesús Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masher2.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Writing a data pipeline in R for streaming tweets</title>
+      <link>https://masher2.github.io/posts/2019/11/writing-a-data-pipeline-in-r-for-streaming-tweets/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/posts/2019/11/writing-a-data-pipeline-in-r-for-streaming-tweets/</guid>
+      <description>Inspired by this datacamp post and the current events happening in Chile I decided to give it a try to make my own version of a tweet streaming script, with the intention of using it when another event of that magnitud happens and maybe getting some useful insights then, or maybe not, at least I had fun while doing this.
+Setting up the structure of the script The first thing I did was plan how to structure the script.</description>
+    </item>
     
     <item>
       <title>Adobe&#39;s Venezuela ban and why libre software is the solution</title>
