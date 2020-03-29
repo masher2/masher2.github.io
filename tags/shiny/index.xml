@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shiny on Jesús Pérez</title>
+    <link>/tags/shiny/</link>
+    <description>Recent content in Shiny on Jesús Pérez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploying shiny: Heroku</title>
+      <link>/posts/2019/11/deploying-shiny-heroku/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/11/deploying-shiny-heroku/</guid>
+      <description>I’ve been interested in how to deploy shiny applications since I first knew about it, since there is not much utility in an application that is not used by anyone or that is too difficult for others to access it.
+Here I will be exploring some ways to deploy shiny apps to the web.
+I will be deploying a simple shiny app I made quite some time ago, you can find the code in this repo, the app in itself is not important as we are focused only on th edeployment, but if you want to try it locally you are free to do it by checking out the local branch and running cleaning_script.</description>
+    </item>
+    
+  </channel>
+</rss>

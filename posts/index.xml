@@ -5,8 +5,34 @@
         <link>https://masher2.github.io/posts/</link>
         <description>Recent content in Posts on Jesús Pérez</description>
         <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://masher2.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Interesting things I saw this week - 1</title>
+            <link>https://masher2.github.io/posts/2020/03/interesting-things-i-saw-this-week/</link>
+            <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://masher2.github.io/posts/2020/03/interesting-things-i-saw-this-week/</guid>
+            <description type="html"><![CDATA[
+
+
+<p>I had been planning to blog more but I haven’t had the motivation to do so, so instead of focusing all my mental energy into a single topic that I just didn’t have so much to talk about or doing a project that really wasn’t as fun as I thought it could be I will be sharing here a few interesting things (and my comments on some of those things) that I have seen on a weekly basis (hopefully).</p>
+<p>I have some strong opinions about the global system that we live in and those opinions will leak through my commentaries on these links, I hope you enjoy it.</p>
+<ul>
+<li><p><a href="https://vicki.substack.com/p/all-numbers-are-made-up-some-are">[blog post] All numbers are made up, some are useful</a>: An article about how every number that we consider as a true representation of reality or as truth itself is wrong, not necessarily bad, but wrong; some because of the concepts they represent are ill-defined or simply because of the limitations of our understanding of the matter in question.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=AiPWKHBR9wI">[video] How ExxonMobil controls our lives</a>: An interesting video about the environmental damage ExxonMobil has done and it’s complete disregard for everything except profit. There is something called the “resource curse” that says that “the greater a country’s dependence on oil and mineral resources, the worse its [economic] growth performance”.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=vPRySy3Qtvs">[video] Growing Roots - This Farmer Is Taking Root On Your Rooftops // Discovery on Viddsee</a>: A small documentary of some urban farms in Singapore.</p>
+<p>The recent need for locally sourced food has become mainstream due to the age of information that we currently live in; the abstraction of the food industry, the industrialized aggriculture, could be installed as the de-facto way to obtain food due to the fact that the information wasn’t as readily available to the people in general as fast as it is now, the people could only see how the food was cheaper and more available without even thinking about what was better for the environment or even for the human itself.
+The video shows some ways that the people in Singapore have found to get out, at least in some part, of the illusion of the globalized food system. You can’t optimize the ecosystem for economic growth.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=geBQNOid_7A">[video] Roads should be abolished!</a>: Luke Smith ranting about roads, explaining how roads affect the development of urban areas and how having a car became almost mandatory because of them.</p>
+<p>Because of what he exposes there one could see why food deserts exists in USA and how that has impacted indirectly the ability of a portion of their population to get out of poverty.
+Also mentions how turism is an idea void of meaning because when people travel they think they are learning about the world when most of the time they are having the same experiences at home but superficially different. Interesting stuff.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=LRVmfx4EWI0">[video] You’ll never go wrong choosing Independence! (NEETs rule, Wagies drool!)</a>: Luke Smith talking about how he aproaches most of his decisions, and how the system, building on top of the abstraction of independence (i.e. money) has made everyone too much dependent on the system itself, and it’s when the system fails that the dependence and the limitations it imposes on the people becomes obvious.</p></li>
+</ul>
+]]></description>
+            
+        </item>
         
         <item>
             <title>Writing a data pipeline in R for streaming tweets</title>
