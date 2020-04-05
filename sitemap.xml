@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-2/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/posts/2020/03/interesting-things-i-saw-this-week/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
   </url>
@@ -51,20 +56,32 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/fast-fashion/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/food/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/food-waste/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/categories/itistw/</loc>
-    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://masher2.github.io/</loc>
-    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,6 +104,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/nintendo/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/categories/opinions/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -94,7 +117,7 @@
   
   <url>
     <loc>https://masher2.github.io/posts/</loc>
-    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
