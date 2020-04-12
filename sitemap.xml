@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-3/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-2/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
   </url>
@@ -44,6 +49,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/covid1/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/crypto/</loc>
     <lastmod>2019-08-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -51,7 +62,19 @@
   
   <url>
     <loc>https://masher2.github.io/tags/data/</loc>
-    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/electronic/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/families/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -74,14 +97,26 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/inequality/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/isolation/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/categories/itistw/</loc>
-    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://masher2.github.io/</loc>
-    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,6 +139,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/music/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/nintendo/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -117,13 +158,19 @@
   
   <url>
     <loc>https://masher2.github.io/posts/</loc>
-    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://masher2.github.io/tags/programming/</loc>
     <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/quarantine/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -148,6 +195,12 @@
   <url>
     <loc>https://masher2.github.io/tags/venezuela/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/visualization/</loc>
+    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

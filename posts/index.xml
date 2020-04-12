@@ -5,8 +5,38 @@
         <link>https://masher2.github.io/posts/</link>
         <description>Recent content in Posts on Jesús Pérez</description>
         <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Sat, 04 Apr 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://masher2.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Interesting things I saw this week - 3</title>
+            <link>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-3/</link>
+            <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-3/</guid>
+            <description type="html"><![CDATA[
+
+
+<p>I avoid almost all covid19 information out there in order to mantain my chill during this time, it is stressful enough to have to go outside to buy groceries surrounded by people that don’t take this situation seriously, I don’t need all my remaining time to be consumed by stress related to unactionable information. Getting that out of the way, this week I read something about why people shouldn’t be doing data visualizations lightly with covid19 data, a must read if you work with data and want to make something pretty to display in your linkedin profile.</p>
+<p>Also I will be recommending music weekly because I think sharing it here will have a higher probability of people actually listening to it than sharing it through <a href="https://instagram.com/masher__2">my instagram</a>.</p>
+<ul>
+<li><p><a href="https://www.williamrchase.com/post/why-i-m-not-making-covid19-visualizations-and-why-you-probably-shouldn-t-either/">[blog-post] Why I’m not making COVID19 visualizations, and why you (probably) shouldn’t either</a>: A post about the potential negative impact visualizations of the COVID19 pandemic could have.</p>
+<p>It’s not a gatekeeping post about why nobody should do any project regarding the COVID19, but an explaination of the complications in the models and visualizations about the disease and why it can be problematic to share yours with the public.</p>
+<p>This in an excerpt from the article that summarizes it:</p>
+<blockquote>
+<p><em>If you’re thinking about doing a project with COVID19 data, first ask yourself: Can I do better than these huge organizations [FT, NYT, WHO] and the top experts on public health? If not, then promote the work of experts instead of creating your own inferior and potentially harmful version. With the stakes as high as they are, and with the state of the current data on the outbreak, this kind of reporting should be left to the experts, not used as a fun weekend coding project.</em></p>
+<p>[…]</p>
+<p><em>However, if you just think the data is interesting, and want to practice your analysis or visualization skills, there’s no harm in downloading some data and working on it on your local machine. The danger comes when you decide to share that with the public.</em></p>
+</blockquote></li>
+<li><p><a href="https://www.youtube.com/watch?v=hSmAYUnZyxE">[video] How modern families increase social inequality</a>: A video exploring some aspects of how modern families are structured. To me the most interesting part starts at 08:45 where some statistics around family structure are shown and middle and lower class families are compared. The differences in family structure between middle and lower class families impact strongly how their children are raised and eventually it has the potential to keep increasing the social and economic inequality between those groups.</p>
+<p>Getting out of poverty is not as easy as some say, it is not only about money or motivation to do something, it is heavily affected by the environment children are raised. I remember I read an article about it quite some time ago but I couldn’t find it, I will add it to a subsequent ITISTW entry as soon as I find it again.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=nxQe9bPDW5E">[video] The Benefits of Social Isolation</a>: Self explainatory title, this quarantine doesn’t have to be completely bad, there are some benefits you can draw from it. If you are fortunate enough to be reading this I am pretty sure you can get something positive from watching this video. Make this an oportunity to better yourself, don’t be giving your life away only to mindless content consumption (not that it is bad, but don’t spend all this free time doing it).</p></li>
+<li><p>[music] <a href="https://www.youtube.com/watch?v=GuUw8p13wsM">[youtube]</a> <a href="https://aut2m.bandcamp.com/album/area">[bandcamp]</a> AUT2M - Area: A beautifully made electronic album, ambiental, mysterious, dark, calming, a journey on it’s own. I actually listened to this a few weeks ago but it is so good that I needed to share it here.</p>
+<p>The second song, Blue, it’s an absolute banger. Be ready to get into the underwater electronic scene.</p></li>
+</ul>
+]]></description>
+            
+        </item>
         
         <item>
             <title>Interesting things I saw this week - 2</title>
