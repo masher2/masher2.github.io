@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Covid1 on Jesús Pérez</title>
-    <link>/tags/covid1/</link>
-    <description>Recent content in Covid1 on Jesús Pérez</description>
+    <title>Covid19 on Jesús Pérez</title>
+    <link>https://masher2.github.io/tags/covid19/</link>
+    <description>Recent content in Covid19 on Jesús Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/covid1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masher2.github.io/tags/covid19/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Interesting things I saw this week - 3</title>
-      <link>/posts/2020/04/interesting-things-i-saw-this-week-3/</link>
+      <link>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-3/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/04/interesting-things-i-saw-this-week-3/</guid>
+      <guid>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-3/</guid>
       <description>I avoid almost all covid19 information out there in order to mantain my chill during this time, it is stressful enough to have to go outside to buy groceries surrounded by people that don’t take this situation seriously, I don’t need all my remaining time to be consumed by stress related to unactionable information. Getting that out of the way, this week I read something about why people shouldn’t be doing data visualizations lightly with covid19 data, a must read if you work with data and want to make something pretty to display in your linkedin profile.</description>
     </item>
     
