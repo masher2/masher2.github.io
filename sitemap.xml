@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-5/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/posts/2020/04/interesting-things-i-saw-this-week-4/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
@@ -60,6 +65,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/code/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/covid19/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -74,6 +85,18 @@
   <url>
     <loc>https://masher2.github.io/tags/data/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/derivatives/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/economy/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -133,13 +156,13 @@
   
   <url>
     <loc>https://masher2.github.io/categories/itistw/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://masher2.github.io/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -156,6 +179,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/mix/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/modernity/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -168,8 +197,20 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/motivation/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/music/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/negative-oil-pries/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,7 +234,7 @@
   
   <url>
     <loc>https://masher2.github.io/posts/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,14 +251,20 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/categories/r/</loc>
+    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/r/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://masher2.github.io/categories/r/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <loc>https://masher2.github.io/tags/stock-market/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -230,6 +277,12 @@
   <url>
     <loc>https://masher2.github.io/tags/twitter/</loc>
     <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/vaporwave/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
