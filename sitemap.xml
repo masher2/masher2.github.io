@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://masher2.github.io/posts/2020/05/interesting-things-i-saw-this-week-7/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/posts/2020/05/interesting-things-i-saw-this-week-6/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url>
@@ -55,6 +60,12 @@
   <url>
     <loc>https://masher2.github.io/tags/adobe/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/ambient/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,6 +153,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/food-culture/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/food-waste/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -160,6 +177,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/internet-privacy/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/isolation/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -167,13 +190,13 @@
   
   <url>
     <loc>https://masher2.github.io/categories/itistw/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://masher2.github.io/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -215,7 +238,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/music/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -228,6 +251,12 @@
   <url>
     <loc>https://masher2.github.io/tags/nintendo/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/omnivores-dilemma/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -245,7 +274,7 @@
   
   <url>
     <loc>https://masher2.github.io/posts/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -274,6 +303,18 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/remote-work/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/social-media/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/stock-market/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -293,7 +334,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/vaporwave/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
