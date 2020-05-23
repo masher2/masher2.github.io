@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: masher2.github.io
+Token: a9496431516a8efced158e59dfa38c66057b99ccea766fd49c1240b0fff55633
