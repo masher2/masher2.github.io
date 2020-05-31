@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Free Software on Jesús Pérez</title>
+    <link>https://masher2.github.io/tags/free-software/</link>
+    <description>Recent content in Free Software on Jesús Pérez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masher2.github.io/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interesting things I saw this week - 10</title>
+      <link>https://masher2.github.io/posts/2020/05/interesting-things-i-saw-this-week-10/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/posts/2020/05/interesting-things-i-saw-this-week-10/</guid>
+      <description>Recently I’ve been watching Chef’s Table, as the name sugests it is about chefs, with each episode being a short documentary about a single chef’s history, the restaurants in which they are working and why they are cooking as they are. It is hands down one of the best shows I’ve seen.
+Dan Barber, the chef featured in the second episode, was the one that most resonated with me; the restaurants he owns revolve around the concept of farm to table, cooking the ingredients as close as posible to the source, all local and sustainable.</description>
+    </item>
+    
+  </channel>
+</rss>
