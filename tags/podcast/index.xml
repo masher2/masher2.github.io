@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcast on Jesús Pérez</title>
+    <link>https://masher2.github.io/tags/podcast/</link>
+    <description>Recent content in Podcast on Jesús Pérez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masher2.github.io/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interesting things I saw this week 12</title>
+      <link>https://masher2.github.io/posts/2020/06/interesting-things-i-saw-this-week-12/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/posts/2020/06/interesting-things-i-saw-this-week-12/</guid>
+      <description>This week I played Hellblade: Senua’s sacrifice, I was interested in this game because it’s an adventure seen through a schizophrenic woman’s eyes, there are visual artifacts through the game and voices, friendly and hostile, that whisper, speak and scream to you from all directions, as if they come from inside your mind, all to make you feel immersed in the experience of living as a schizophrenic. It was a short game but deeply engaging, it truly is a story that is best told through an interactive medium like videogames.</description>
+    </item>
+    
+  </channel>
+</rss>
