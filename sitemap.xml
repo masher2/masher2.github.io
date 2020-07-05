@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://masher2.github.io/posts/2020/07/interesting-things-i-saw-this-week-15/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/posts/2020/06/interesting-things-i-saw-this-week-14/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url>
@@ -242,6 +247,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/gambling/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/gifs/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -284,6 +295,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/investing/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/isolation/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -291,13 +308,13 @@
   
   <url>
     <loc>https://masher2.github.io/categories/itistw/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://masher2.github.io/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -375,7 +392,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/music/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -423,13 +440,19 @@
   
   <url>
     <loc>https://masher2.github.io/posts/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://masher2.github.io/tags/privacy/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/productivity/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -507,7 +530,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/vaporwave/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -131,71 +131,74 @@ Setting up the structure of the script The first thing I did was plan how to str
 
             <div class="post-content">
                 
-<script src="https://masher2.github.io/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
+<p>Inspired by <a href="https://www.datacamp.com/community/tutorials/building-a-tweet-etl-pipeline-using-r" target="_blank">this datacamp post</a> and the current events happening in Chile I decided to give it a try to make my own version of a tweet streaming script, with the intention of using it when another event of that magnitud happens and maybe getting some useful insights then, or maybe not, at least I had fun while doing this.</p>
 
-<p>Inspired by <a href="https://www.datacamp.com/community/tutorials/building-a-tweet-etl-pipeline-using-r">this datacamp post</a> and the current events happening in Chile I decided to give it a try to make my own version of a tweet streaming script, with the intention of using it when another event of that magnitud happens and maybe getting some useful insights then, or maybe not, at least I had fun while doing this.</p>
-<div id="setting-up-the-structure-of-the-script" class="section level1">
-<h1>Setting up the structure of the script</h1>
+<h1 id="setting-up-the-structure-of-the-script">Setting up the structure of the script</h1>
+
 <p>The first thing I did was plan how to structure the script. I decided to structure separate the process in three functions, one for each letter of ETL (imaginative, ikr). The whole script would look like this:</p>
-<pre class="r"><code># Extract
-get_tweets &lt;- function() {}
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#75715e"># Extract</span>
+get_tweets <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>() {}
 
-# Transform
-transform_tweets &lt;- function() {}
+<span style="color:#75715e"># Transform</span>
+transform_tweets <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>() {}
 
-# Load
-load_tweets &lt;- function() {}
+<span style="color:#75715e"># Load</span>
+load_tweets <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>() {}
 
-main &lt;- function() {
+main <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>() {
   get_tweets()
   transform_tweets()
   load_tweets()
 }
 
-# Run everything
-main()</code></pre>
-<p>I won’t be updating the full script in-post as it would occupy too much space, you can look at the finished product <a href="https://github.com/masher2/twitter-etl">here in this github repo</a>.</p>
-</div>
-<div id="connecting-to-the-twitter-api-and-streaming-the-tweets" class="section level1">
-<h1>Connecting to the twitter API and streaming the tweets</h1>
+<span style="color:#75715e"># Run everything</span>
+main()</code></pre></div>
+<p>I won&rsquo;t be updating the full script in-post as it would occupy too much space, you can look at the finished product <a href="https://github.com/masher2/twitter-etl" target="_blank">here in this github repo</a>.</p>
+
+<h1 id="connecting-to-the-twitter-api-and-streaming-the-tweets">Connecting to the twitter API and streaming the tweets</h1>
+
 <p>After designing the script it is time to start filling those empty functions, I started with the streaming of tweets as it is the logical first step.</p>
+
 <p>To properly use the <code>rtweet</code> package one must create a new app in the twitter developer options, find the keys and secrets and store them somewhere, after that tedious process is done I store the account and access keys/secrets into the <code>.Renviron</code> file, which ended up like this:</p>
-<pre class="r"><code>TW_CONSUMER_KEY=&#39;wow&#39;
-TW_CONSUMER_SECRET=&#39;so secret&#39;
-TW_ACCESS_TOKEN=&#39;much private&#39;
-TW_ACCESS_SECRET=&#39;wow&#39;</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">TW_CONSUMER_KEY<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;wow&#39;</span>
+TW_CONSUMER_SECRET<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;so secret&#39;</span>
+TW_ACCESS_TOKEN<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;much private&#39;</span>
+TW_ACCESS_SECRET<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;wow&#39;</span></code></pre></div>
 <p>Then creating the token for the session becomes super easy and portable:</p>
-<pre class="r"><code>token &lt;- rtweet::create_token(
-  app = &#39;app&#39;,
-  consumer_key = Sys.getenv(&#39;TW_CONSUMER_KEY&#39;),
-  consumer_secret = Sys.getenv(&#39;TW_CONSUMER_SECRET&#39;),
-  access_token = Sys.getenv(&#39;TW_ACCESS_TOKEN&#39;),
-  access_secret = Sys.getenv(&#39;TW_ACCESS_SECRET&#39;)
-)</code></pre>
-<p>Writing the body of the <code>get_tweets</code> function was easy too, it ended up being just a wrapper around <code>rtweet::stream_tweets</code> creating a unique filename for the stream data and returning it to use it in the next step. I decided to go with that approach because there is no way (at least that I found) to call functions directly to the messages received, wich could be nice to load data to the database in real time, but whatever, we don’t need real time data in the database anyway.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">token <span style="color:#f92672">&lt;-</span> rtweet<span style="color:#f92672">::</span>create_token(
+  app <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;app&#39;</span>,
+  consumer_key <span style="color:#f92672">=</span> <span style="color:#66d9ef">Sys.getenv</span>(<span style="color:#e6db74">&#39;TW_CONSUMER_KEY&#39;</span>),
+  consumer_secret <span style="color:#f92672">=</span> <span style="color:#66d9ef">Sys.getenv</span>(<span style="color:#e6db74">&#39;TW_CONSUMER_SECRET&#39;</span>),
+  access_token <span style="color:#f92672">=</span> <span style="color:#66d9ef">Sys.getenv</span>(<span style="color:#e6db74">&#39;TW_ACCESS_TOKEN&#39;</span>),
+  access_secret <span style="color:#f92672">=</span> <span style="color:#66d9ef">Sys.getenv</span>(<span style="color:#e6db74">&#39;TW_ACCESS_SECRET&#39;</span>)
+)</code></pre></div>
+<p>Writing the body of the <code>get_tweets</code> function was easy too, it ended up being just a wrapper around <code>rtweet::stream_tweets</code> creating a unique filename for the stream data and returning it to use it in the next step. I decided to go with that approach because there is no way (at least that I found) to call functions directly to the messages received, wich could be nice to load data to the database in real time, but whatever, we don&rsquo;t need real time data in the database anyway.</p>
+
 <p>Here is how <code>get_tweets</code> turned out:</p>
-<pre class="r"><code>get_tweets &lt;- function(keys, timeout = 600, raw_data_dir = &quot;raw_data&quot;) {
-  filename &lt;- file.path(
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">get_tweets <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>(keys, timeout <span style="color:#f92672">=</span> <span style="color:#ae81ff">600</span>, raw_data_dir <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;raw_data&#34;</span>) {
+  filename <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">file.path</span>(
     raw_data_dir,
-    paste0(&quot;stream_&quot;, format(Sys.time(), &quot;%Y%m%d_%H%M%S&quot;), &quot;.json&quot;)
+    <span style="color:#66d9ef">paste0</span>(<span style="color:#e6db74">&#34;stream_&#34;</span>, <span style="color:#66d9ef">format</span>(<span style="color:#66d9ef">Sys.time</span>(), <span style="color:#e6db74">&#34;%Y%m%d_%H%M%S&#34;</span>), <span style="color:#e6db74">&#34;.json&#34;</span>)
   )
-  rtweet::stream_tweets(
-    q = keys,
-    timeout = timeout,
-    parse = FALSE,
-    file_name = filename,
-    verbose = TRUE
+  rtweet<span style="color:#f92672">::</span>stream_tweets(
+    q <span style="color:#f92672">=</span> keys,
+    timeout <span style="color:#f92672">=</span> timeout,
+    parse <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+    file_name <span style="color:#f92672">=</span> filename,
+    verbose <span style="color:#f92672">=</span> <span style="color:#66d9ef">TRUE</span>
   )
 
   filename
-}</code></pre>
-</div>
-<div id="parsing-the-streams" class="section level1">
-<h1>Parsing the streams</h1>
+}</code></pre></div>
+<h1 id="parsing-the-streams">Parsing the streams</h1>
+
 <p>After the E was done, it was turn for the T portion. The function reads the tweet data from the file we stored the stream in and then process it.</p>
-<p>There is a bunch of data that comes with every tweet, I thought about saving it all but after a first look I realized that there are some fields that I don’t consider important with the intention of analyzing what the people is saying about a current live event; so I just deleted the retweets, kept only the tweets that were in spanish, processed the tweet content and the quoted content, removed duplicated tweets and returned the parsed dataframe.</p>
+
+<p>There is a bunch of data that comes with every tweet, I thought about saving it all but after a first look I realized that there are some fields that I don&rsquo;t consider important with the intention of analyzing what the people is saying about a current live event; so I just deleted the retweets, kept only the tweets that were in spanish, processed the tweet content and the quoted content, removed duplicated tweets and returned the parsed dataframe.</p>
+
 <p>The variables that I considered important for that specific use case were:</p>
+
 <ul>
 <li><code>created_at</code>: time is always important.</li>
 <li><code>screen_name</code>: to see which users tweeted the most and what.</li>
@@ -205,108 +208,117 @@ TW_ACCESS_SECRET=&#39;wow&#39;</code></pre>
 <li><code>quoted_user</code>: if the tweet is a quoting somebody, who is the user quoting?</li>
 <li><code>quoted_content</code>: what did the other user tweeted (twote?) about?</li>
 </ul>
+
 <p>The function ended up like this:</p>
-<pre class="r"><code>transform_tweets &lt;- function(filename) {
-  df &lt;- rtweet::parse_stream(filename, verbose=FALSE)
-  df &lt;- dplyr::filter(df, !is_retweet, lang == &quot;es&quot;)
-  df &lt;- dplyr::transmute(
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">transform_tweets <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>(filename) {
+  df <span style="color:#f92672">&lt;-</span> rtweet<span style="color:#f92672">::</span>parse_stream(filename, verbose<span style="color:#f92672">=</span><span style="color:#66d9ef">FALSE</span>)
+  df <span style="color:#f92672">&lt;-</span> dplyr<span style="color:#f92672">::</span>filter(df, <span style="color:#f92672">!</span>is_retweet, lang <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;es&#34;</span>)
+  df <span style="color:#f92672">&lt;-</span> dplyr<span style="color:#f92672">::</span>transmute(
     df,
-    date_created = created_at,
-    user = screen_name,
-    content = text,
-    source = source,
-    location = location,
-    quoted_user = quoted_screen_name,
-    quoted_content = quoted_text
+    date_created <span style="color:#f92672">=</span> created_at,
+    user <span style="color:#f92672">=</span> screen_name,
+    content <span style="color:#f92672">=</span> text,
+    <span style="color:#f92672">source</span> <span style="color:#f92672">=</span> <span style="color:#f92672">source</span>,
+    location <span style="color:#f92672">=</span> location,
+    quoted_user <span style="color:#f92672">=</span> quoted_screen_name,
+    quoted_content <span style="color:#f92672">=</span> quoted_text
   )
-  df &lt;- dplyr::mutate_at(
+  df <span style="color:#f92672">&lt;-</span> dplyr<span style="color:#f92672">::</span>mutate_at(
     df,
     vars(content, quoted_content),
-    function(text) {
-      text = text %&gt;% 
-        # coerce to lower case all the words
-        stringr::str_to_lower() %&gt;%
-        # remove links
-        stringr::str_remove_all(&quot;\\s?(f|ht)(tp)(s?)(://)([^\\.]*)[\\.|/](\\S*)&quot;) %&gt;%
-        # remove mentions of other users
-        stringr::str_remove_all(&quot;@\\w+&quot;) %&gt;%
-        # remove stopwords
-        tm::removeWords(tm::stopwords(&quot;spanish&quot;)) %&gt;%
-        # trim all whitespaces
-        stringr::str_squish()
+    <span style="color:#66d9ef">function</span>(text) {
+      text <span style="color:#f92672">=</span> text <span style="color:#f92672">%&gt;%</span> 
+        <span style="color:#75715e"># coerce to lower case all the words</span>
+        stringr<span style="color:#f92672">::</span>str_to_lower() <span style="color:#f92672">%&gt;%</span>
+        <span style="color:#75715e"># remove links</span>
+        stringr<span style="color:#f92672">::</span>str_remove_all(<span style="color:#e6db74">&#34;\\s?(f|ht)(tp)(s?)(://)([^\\.]*)[\\.|/](\\S*)&#34;</span>) <span style="color:#f92672">%&gt;%</span>
+        <span style="color:#75715e"># remove mentions of other users</span>
+        stringr<span style="color:#f92672">::</span>str_remove_all(<span style="color:#e6db74">&#34;@\\w+&#34;</span>) <span style="color:#f92672">%&gt;%</span>
+        <span style="color:#75715e"># remove stopwords</span>
+        tm<span style="color:#f92672">::</span>removeWords(tm<span style="color:#f92672">::</span>stopwords(<span style="color:#e6db74">&#34;spanish&#34;</span>)) <span style="color:#f92672">%&gt;%</span>
+        <span style="color:#75715e"># trim all whitespaces</span>
+        stringr<span style="color:#f92672">::</span>str_squish()
     }
   )
-  df &lt;- dplyr::filter(df, !duplicated(content))
+  df <span style="color:#f92672">&lt;-</span> dplyr<span style="color:#f92672">::</span>filter(df, <span style="color:#f92672">!</span><span style="color:#66d9ef">duplicated</span>(content))
 
   df
-}</code></pre>
-<p>I’m not keen on using pipes <code>%&gt;%</code> inside a function’s body but in that case it made the processing of the tweets so much legible that I couldn’t not use it. Also, I removed the mentions inside the tweets to filter out copypasted responses to multiple people.</p>
-</div>
-<div id="loading-to-the-database" class="section level1">
-<h1>Loading to the database</h1>
+}</code></pre></div>
+<p>I&rsquo;m not keen on using pipes <code>%&gt;%</code> inside a function&rsquo;s body but in that case it made the processing of the tweets so much legible that I couldn&rsquo;t not use it. Also, I removed the mentions inside the tweets to filter out copypasted responses to multiple people.</p>
+
+<h1 id="loading-to-the-database">Loading to the database</h1>
+
 <p>E and T ready, now for the L. Maybe the easiest part of this ETL is the loading, just connet to the database, write the processed tweets to it and close the connection, easy peasy.</p>
-<pre class="r"><code>load_tweets &lt;- function(tweets, database = &quot;tweets.db&quot;) {
-    conn &lt;- DBI::dbConnect(RSQLite::SQLite(), database)
-    DBI::dbWriteTable(conn, &quot;tweet_data&quot;, tweets, append = TRUE)
-    DBI::dbDisconnect(conn)
-}</code></pre>
-<p>Everything seems ready now…</p>
-</div>
-<div id="oh-wait-we-dont-have-a-database" class="section level1">
-<h1>Oh wait, we don’t have a database…</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">load_tweets <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>(tweets, database <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tweets.db&#34;</span>) {
+    conn <span style="color:#f92672">&lt;-</span> DBI<span style="color:#f92672">::</span>dbConnect(RSQLite<span style="color:#f92672">::</span>SQLite(), database)
+    DBI<span style="color:#f92672">::</span>dbWriteTable(conn, <span style="color:#e6db74">&#34;tweet_data&#34;</span>, tweets, append <span style="color:#f92672">=</span> <span style="color:#66d9ef">TRUE</span>)
+    DBI<span style="color:#f92672">::</span>dbDisconnect(conn)
+}</code></pre></div>
+<p>Everything seems ready now&hellip;</p>
+
+<h1 id="oh-wait-we-don-t-have-a-database">Oh wait, we don&rsquo;t have a database&hellip;</h1>
+
 <p>After all the work we did to get tweets from the twitter database to ours I have just now realized I have not made a database to store our precious data.</p>
+
 <p>I decided to make a function that sets up the database to avoid writing again those commands in case I decided to delete the file or if any other person would like to use the script. It is super simple, connect to the database, execute the command to create the table and disconnect, the sqlite file is ready.</p>
-<pre class="r"><code>setup_database &lt;- function(database = &quot;tweets.db&quot;) {
-  conn &lt;- DBI::dbConnect(RSQLite::SQLite(), database)
-  DBI::dbExecute(
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">setup_database <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>(database <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tweets.db&#34;</span>) {
+  conn <span style="color:#f92672">&lt;-</span> DBI<span style="color:#f92672">::</span>dbConnect(RSQLite<span style="color:#f92672">::</span>SQLite(), database)
+  DBI<span style="color:#f92672">::</span>dbExecute(
     conn,
-    &quot;CREATE TABLE tweet_data(
-      tweet_id INTEGER PRIMARY KEY,
-      date_created INTEGER,
-      user TEXT,
-      content TEXT,
-      source TEXT,
-      location TEXT,
-      quoted_user TEXT,
-      quoted_content TEXT
-    )&quot;
+    <span style="color:#e6db74">&#34;CREATE TABLE tweet_data(
+</span><span style="color:#e6db74">      tweet_id INTEGER PRIMARY KEY,
+</span><span style="color:#e6db74">      date_created INTEGER,
+</span><span style="color:#e6db74">      user TEXT,
+</span><span style="color:#e6db74">      content TEXT,
+</span><span style="color:#e6db74">      source TEXT,
+</span><span style="color:#e6db74">      location TEXT,
+</span><span style="color:#e6db74">      quoted_user TEXT,
+</span><span style="color:#e6db74">      quoted_content TEXT
+</span><span style="color:#e6db74">    )&#34;</span>
   )
-  DBI::dbDisconnect(conn)
-}</code></pre>
-<p>I chose sqlite because I really haven’t used it before, the tutorial I was following used sqlite and it truly is easy AF (and fun) to set up.</p>
-</div>
-<div id="making-it-a-cli" class="section level1">
-<h1>Making it a CLI</h1>
-<p>Now, everything else ready, what can I do to make this script truly a usable piece of software? All my friends know that I am a linux enthusiast and that I love the terminal so much that I ditched RStudio (ahhh, the horror) in favor of nvim and the incredibly made <a href="https://github.com/jalvesaq/Nvim-R">Nvim-R plugin</a> (More on this in a future post), so the obvious path was to make a full CLI for it, luckily for me there is a package that handles that perfectly, <code>optparse</code>.</p>
+  DBI<span style="color:#f92672">::</span>dbDisconnect(conn)
+}</code></pre></div>
+<p>I chose sqlite because I really haven&rsquo;t used it before, the tutorial I was following used sqlite and it truly is easy AF (and fun) to set up.</p>
+
+<h1 id="making-it-a-cli">Making it a CLI</h1>
+
+<p>Now, everything else ready, what can I do to make this script truly a usable piece of software? All my friends know that I am a linux enthusiast and that I love the terminal so much that I ditched RStudio (ahhh, the horror) in favor of nvim and the incredibly made <a href="https://github.com/jalvesaq/Nvim-R" target="_blank">Nvim-R plugin</a> (More on this in a future post), so the obvious path was to make a full CLI for it, luckily for me there is a package that handles that perfectly, <code>optparse</code>.</p>
+
 <p>Using <code>optparse</code> I added the following options to the script:</p>
+
 <ul>
-<li><code>--database</code>: defaults to “tweets.db”, and it is the name od the database to create or connect to.</li>
-<li><code>--keys</code>: the search query for the tweets to be stramed, I used the default: “#chile,#chiledesperto,#santiago” but I intend to make it a mandatory positional argument to increase the flexibility, but that default is ok for our purposes.</li>
+<li><code>--database</code>: defaults to &ldquo;tweets.db&rdquo;, and it is the name od the database to create or connect to.</li>
+<li><code>--keys</code>: the search query for the tweets to be stramed, I used the default: &ldquo;#chile,#chiledesperto,#santiago&rdquo; but I intend to make it a mandatory positional argument to increase the flexibility, but that default is ok for our purposes.</li>
 <li><code>--initial-setup</code>: if this flag is used just run <code>setup_database</code> and end the script.</li>
 <li><code>-f</code> | <code>--force-stream</code>: if this flag is used with <code>--initial-setup</code> stream the tweets afterwards.</li>
-<li><code>--raw-data-dir</code>: defaults to “raw_data”, and its the name of the folder that will hold all the raw data streams.</li>
+<li><code>--raw-data-dir</code>: defaults to &ldquo;raw_data&rdquo;, and its the name of the folder that will hold all the raw data streams.</li>
 <li><code>-c</code> | <code>--stream-chunks</code>: the number of times the stream will be done, the default, 5, means that the ETL process will be run five times.</li>
 <li><code>-t</code> | <code>--stream-timeout</code>: for how long to run the streaming of tweets, the default is 60, meaning that each stream session will be just one minute long.</li>
 </ul>
-<p>One thing that I didn’t mention is that the ETL process will be run a few times, streaming, processing, loading the tweets and then automatically repeating that for a set number of times, I used the term “stream chunks” because naming is difficult, but it could be named anything else, that name is not final.</p>
-</div>
-<div id="adding-safety-checks-and-logging" class="section level1">
-<h1>Adding safety checks and logging</h1>
+
+<p>One thing that I didn&rsquo;t mention is that the ETL process will be run a few times, streaming, processing, loading the tweets and then automatically repeating that for a set number of times, I used the term &ldquo;stream chunks&rdquo; because naming is difficult, but it could be named anything else, that name is not final.</p>
+
+<h1 id="adding-safety-checks-and-logging">Adding safety checks and logging</h1>
+
 <p>We are almost ready, there are a few things that can go wrong with our script:</p>
-<ol style="list-style-type: decimal">
+
+<ol>
 <li>The database file could exist when setting it up, and we could possibly overwrite the data we have.</li>
 <li>The raw data directory could not exist and then we could not save the streams to anywhere.</li>
 <li>There could be no tweets streamed at all, causing problems in the T and L.</li>
 </ol>
+
 <p>For all those problems we have the solution, just check for those conditions before running the body of the corresponding function and we should be safe, there could be more possible problems lurking around but I did not find any more.</p>
-<p>Another thing is that we don’t actually know what is part of the process is running at any given time, we just know that the console is locked, there could be a slient problem that we are not aware of just because of that, but there is always a solution: <code>futile.logger</code>.</p>
+
+<p>Another thing is that we don&rsquo;t actually know what is part of the process is running at any given time, we just know that the console is locked, there could be a slient problem that we are not aware of just because of that, but there is always a solution: <code>futile.logger</code>.</p>
+
 <p>A package that adds logging capabilities similar to the python logging module but in R, what a time to be alive. Just add a few calls to <code>flog.info</code> and <code>flog.debug</code> and we are ready to go!</p>
-</div>
-<div id="the-end" class="section level1">
-<h1>The end… ?</h1>
+
+<h1 id="the-end">The end&hellip; ?</h1>
+
 <p>This is it, the data pipeline, or ETL, I feel that pipeline is just another buzzword used to mistify simple stuff; is ready, now I will play with this someday, maybe add more suff to it, change other things or add a second part to this as a sort of continuation to the idea that led me to creating it in the first place.</p>
-<p>The code for this project <a href="https://github.com/masher2/twitter-etl">is here</a>, feel free to give me your feedback on <a href="https://github.com/masher2">github</a>, or <a href="https://twitter.com/Masher_2">twitter</a> :)</p>
-</div>
+
+<p>The code for this project <a href="https://github.com/masher2/twitter-etl" target="_blank">is here</a>, feel free to give me your feedback on <a href="https://github.com/masher2" target="_blank">github</a>, or <a href="https://twitter.com/Masher_2" target="_blank">twitter</a> :)</p>
 
             </div>
         </article>

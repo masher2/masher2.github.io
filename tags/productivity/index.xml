@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Jesús Pérez</title>
+    <link>https://masher2.github.io/tags/productivity/</link>
+    <description>Recent content in Productivity on Jesús Pérez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masher2.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interesting things I saw this week - 15</title>
+      <link>https://masher2.github.io/posts/2020/07/interesting-things-i-saw-this-week-15/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/posts/2020/07/interesting-things-i-saw-this-week-15/</guid>
+      <description>This week I tinkered with my laptop&amp;rsquo;s graphic configuration, I messed up and had to spent a day working inside a tty, fortunately I am an avid terminal user and could live without a graphical interface and also the same day, albeit almost at midnight, I could fix the problem. Now I can use the Nvidia graphics card that came with my laptop and can peek into the PC master race lifestyle.</description>
+    </item>
+    
+  </channel>
+</rss>
