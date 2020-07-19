@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://masher2.github.io/posts/2020/07/interesting-things-i-saw-this-week-17/</loc>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/posts/2020/07/interesting-things-i-saw-this-week-16/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
   </url>
@@ -259,7 +264,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/free-software/</loc>
-    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -271,7 +276,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/gifs/</loc>
-    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -325,13 +330,13 @@
   
   <url>
     <loc>https://masher2.github.io/categories/itistw/</loc>
-    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://masher2.github.io/</loc>
-    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -386,6 +391,12 @@
   <url>
     <loc>https://masher2.github.io/tags/mental-state/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/minimalism/</loc>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -463,7 +474,7 @@
   
   <url>
     <loc>https://masher2.github.io/posts/</loc>
-    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -492,14 +503,14 @@
   </url>
   
   <url>
-    <loc>https://masher2.github.io/categories/r/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <loc>https://masher2.github.io/tags/r/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://masher2.github.io/tags/r/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <loc>https://masher2.github.io/categories/r/</loc>
+    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
