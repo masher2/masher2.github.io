@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Violence on Jesús Pérez</title>
+    <link>https://masher2.github.io/tags/violence/</link>
+    <description>Recent content in Violence on Jesús Pérez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masher2.github.io/tags/violence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interesting things I saw this week - 22</title>
+      <link>https://masher2.github.io/posts/2020/08/interesting-things-i-saw-this-week-22/</link>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masher2.github.io/posts/2020/08/interesting-things-i-saw-this-week-22/</guid>
+      <description>This is the first post that I write using my new Drop ALT keyboard, I didn&amp;rsquo;t expect to be this hooked to the typing experience of a mechanical keyboard but how much nicer it feels to type on this can&amp;rsquo;t be ignored, I even placed it on top of my laptop to use it instead of it&amp;rsquo;s own keyboard (inspired by this video).
+Another thing that excites me about this keyboard is that it can be customized though QMK, I can see this becoming a new hobby of mine.</description>
+    </item>
+    
+  </channel>
+</rss>
