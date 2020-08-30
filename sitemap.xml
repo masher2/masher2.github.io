@@ -174,6 +174,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/article/</loc>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/artificial-intelligence/</loc>
     <lastmod>2020-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -269,6 +275,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/documentary/</loc>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/economy/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -312,7 +324,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/farming/</loc>
-    <lastmod>2020-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -348,7 +360,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/free-software/</loc>
-    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -563,6 +575,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/open-hardware/</loc>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/categories/opinions/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -629,14 +647,14 @@
   </url>
   
   <url>
-    <loc>https://masher2.github.io/categories/r/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <loc>https://masher2.github.io/tags/r/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://masher2.github.io/tags/r/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <loc>https://masher2.github.io/categories/r/</loc>
+    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -659,6 +677,12 @@
   </url>
   
   <url>
+    <loc>https://masher2.github.io/tags/satoshi-nakamoto/</loc>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://masher2.github.io/tags/social-media/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -673,6 +697,12 @@
   <url>
     <loc>https://masher2.github.io/tags/stock-market/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/surveillance-capitalism/</loc>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -738,7 +768,7 @@
   
   <url>
     <loc>https://masher2.github.io/tags/video/</loc>
-    <lastmod>2020-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -769,6 +799,12 @@
   <url>
     <loc>https://masher2.github.io/tags/youtube/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://masher2.github.io/tags/zine/</loc>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
